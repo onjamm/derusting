@@ -12,16 +12,26 @@ public class ArrayPractice {
 
     // Get the value of the array at index 2
     String indexTwo = words[2];
-    System.out.println(indexTwo);
+    System.out.println("Value at Index 2: " + indexTwo);
+    System.out.println();
+    
 
     // Get the length of the array
     int length = words.length;
-    System.out.println(length);
+    System.out.println("Length of word array: " + length);
+    System.out.println();
 
     // Iterate over the array using a traditional for loop and print out each item
+    for (int i = 0; i < 4; i++) {
+        System.out.println(words[i]);
+    }
 
+    
+    System.out.println();
     // Iterate over the array using a for-each loop and print out each item
-
+    for (String word : words) {
+        System.out.println(word);
+    }
     /*
      * Reminder!
      * 
