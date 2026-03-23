@@ -6,10 +6,17 @@ public class NumberPractice {
     // Create an int with a positive value and assign it to a variable
     int positive = 999;
     // Use the modulo % operator to find the remainder when the int is divided by 3
-
+    int remainder = positive % 3;
     // Use the modulo % operator to determine whether the number is even
+    int even = positive % 2;
     // (A number is even if it has a remainder of zero when divided by 2)
     // Use an if-else to print "Even" if the number is even and "Odd"
+    if (even == 0) {
+        System.out.println("It's Even!");
+
+    } else {
+        System.out.println("It's odd!");
+    }
     // if the number is odd.
 
     // Divide the number by another number using integer division
