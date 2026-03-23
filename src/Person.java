@@ -19,7 +19,9 @@ public class Person {
 
 
   // Create a toString method that gives the name and age of the person
-
+  public String toString() {
+    return "Name: " + this.name + ", Age: " + this.age;
+  }
 
   // Implement the below public instance method "birthYear"
   // There should NOT be any print statement in this method.
@@ -33,7 +35,9 @@ public class Person {
    * @param currentYear an int for the current year
    * @return The year the person was born
    */
-  // (create the instance method here)
+    public int birthYear(int currentYear) {
+        return currentYear - this.age;
+    }
 
 
   public static void main(String[] args) {
