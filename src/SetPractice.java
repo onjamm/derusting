@@ -11,10 +11,14 @@ public class SetPractice {
     set.add("Bender");
 
     // Check whether the Set contains a given String
+    boolean hasString = set.contains("Leela");
+    System.out.println("Does the set contain 'Leela?' " + hasString);
 
     // Remove an element from the Set
+    set.remove("Bender");
 
     // Get the size of the Set
+    System.out.println("Size of the Set after forgetting about Bender on last delivery: " + set.size());
 
     // Iterate over the elements of the Set, printing each one on a separate line
 
