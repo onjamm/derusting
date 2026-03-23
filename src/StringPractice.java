@@ -13,11 +13,18 @@ public class StringPractice {
     System.out.println("Concatenated string: " + duo);
 
     // Find the value of the character at index 3
+    char charAtIndexThree = myString.charAt(3);
+    System.out.println("Character at index 3: " + charAtIndexThree);
 
     // Check whether the string contains a given substring (i.e. does the string have "abc" in it?)
+    boolean containsSubstring = duo.contains("Robin");
+    System.out.println("Is Robin in the duo?" + containsSubstring);
 
     // Iterate over the characters of the string, printing each one on a separate line
-
+    System.out.println("Characters in myString: ");
+    for (int i = 0; i < myString.length(); i++) {
+        System.out.println(myString.charAt(i));
+    }
     // Create an ArrayList of Strings and assign it to a variable
 
     // Add multiple strings to the List (OK to do one-by-one)
