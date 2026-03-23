@@ -42,13 +42,16 @@ public class Person {
 
   public static void main(String[] args) {
     // Create an instance of Person
-
+    Person person1 = new Person("Drew", 23);
     // Create another instance of Person with a different name and age and
     // assign it to a different variable
+    Person person2 = new Person("John Snow", 34);
 
     // Print the first person
+    System.out.println(person1);
 
     // Print the second person
+    System.out.println(person2);
 
     // Get the name of the first person and store it in a local variable
 
