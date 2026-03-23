@@ -1,9 +1,10 @@
 public class NumberPractice {
   public static void main(String args[]) {
     // Create a float with a negative value and assign it to a variable
+    float negative = -3.1403403403213f;
 
     // Create an int with a positive value and assign it to a variable
-
+    int positive = 999;
     // Use the modulo % operator to find the remainder when the int is divided by 3
 
     // Use the modulo % operator to determine whether the number is even
