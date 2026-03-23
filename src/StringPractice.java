@@ -1,3 +1,4 @@
+import java.util.*;
 public class StringPractice {
   public static void main(String[] args) {
     // Create a string with at least 5 characters and assign it to a variable
@@ -26,13 +27,23 @@ public class StringPractice {
         System.out.println(myString.charAt(i));
     }
     // Create an ArrayList of Strings and assign it to a variable
-
+    ArrayList<String> stringList = new ArrayList<>();
     // Add multiple strings to the List (OK to do one-by-one)
+    stringList.add(myString);
+    stringList.add(sidekick);
+    stringList.add("Joker");
+    stringList.add("Penguin");
+    stringList.add("Riddler");
 
     // Join all of the strings in the list together into a single string separated by commas
     // Use a built-in method to achieve this instead of using a loop
+    String joinedList = String.join(", ", stringList);
+    System.out.println("Joined List: " + joinedList);
 
     // Check whether two strings are equal
+    boolean equals = myString.equals(sidekick);
+    System.out.println("Is Batman Robin? " + equals);
+
 
     /*
      * Reminder!
