@@ -16,10 +16,15 @@ public class MapPractice {
     System.out.println("Damon's Age: " + value);
 
     // Find the size (number of key/value pairs) of the Map
+    System.out.println("Size of the Map: " + map.size());
 
     // Replace the value associated with a given key (the size of the Map shoukld not change)
+    map.put("Damon", 185);
+    System.out.println("Damon's New Age: " + map.get("Damon"));
 
     // Check whether the Map contains a given key
+    boolean hasKey = map.containsKey("Stefan");
+    System.out.println("Does the Map contain the key 'Stefan?' " + hasKey);
 
     // Check whether the Map contains a given value
 
