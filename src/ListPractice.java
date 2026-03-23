@@ -14,18 +14,30 @@ public class ListPractice {
     System.out.println("Element at index 1: " + list.get(1));
 
     // Replace the element at index 1 with a new value
+    list.set(1, "Dwight");
     // (Do not insert a new value. The length of the list should not change)
 
     // Insert a new element at index 0 (the length of the list will change)
+    list.add(0, "Kevin");
 
     // Check whether the list contains a certain string
+    boolean containsMichael = list.contains("Michael");
+    System.out.println("Does this list contain 'Michael?' " + containsMichael);
 
     // Iterate over the list using a traditional for-loop.
+    for (int i = 0; i < list.size(); i++) {
+        System.out.println("Index: " + i + ", Value: " + list.get(i));
+    }    
+    
     // Print each index and value on a separate line
 
     // Sort the list using the Collections library
+    Collections.sort(list);
 
     // Iterate over the list using a for-each loop
+    for (String name : list) {
+        System.out.println("Value " + name);
+    }
     // Print each value on a second line
 
     /*
