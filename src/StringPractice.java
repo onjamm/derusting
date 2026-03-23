@@ -1,10 +1,16 @@
 public class StringPractice {
   public static void main(String[] args) {
     // Create a string with at least 5 characters and assign it to a variable
+    String myString = "Batman";
 
     // Find the length of the string
+    int stringLength = myString.length();
+    System.out.println("Length of myString: " + stringLength);
 
     // Concatenate (add) two strings together and reassign the result
+    String sidekick = "Robin";
+    String duo = myString + " and " + sidekick;
+    System.out.println("Concatenated string: " + duo);
 
     // Find the value of the character at index 3
 
