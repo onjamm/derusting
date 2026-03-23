@@ -27,10 +27,20 @@ public class MapPractice {
     System.out.println("Does the Map contain the key 'Stefan?' " + hasKey);
 
     // Check whether the Map contains a given value
+    boolean hasValue = map.containsValue(170);
+    System.out.println("Does the Map contain 170? " + hasValue);
 
     // Iterate over the keys of the Map, printing each key
+    System.out.println("Keys in the Map: ");
+    for (String key : map.keySet()) {
+        System.out.println(key);
+    }
 
     // Iterate over the values of the map, printing each value
+    System.out.println("Values in the Map: ");
+    for (Integer mapValues : map.values()) {
+        System.out.println(mapValues);
+    }
 
     // Iterate over the entries in the map, printing each key and value
 
