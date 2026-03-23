@@ -21,6 +21,10 @@ public class SetPractice {
     System.out.println("Size of the Set after forgetting about Bender on last delivery: " + set.size());
 
     // Iterate over the elements of the Set, printing each one on a separate line
+    System.out.println("Elements in the Set: ");
+    for (String element : set) {
+        System.out.println(element);
+    }
 
     /*
      * Warning!
