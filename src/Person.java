@@ -5,10 +5,16 @@
 
 public class Person {
   // Declare a public String instance variable for the name of the person
+  String name;
   // Declare a private int instance variable for the age of the person
+  int age;
 
 
   // Create a constructor that takes the name and age of the person
+  public Person(String name, int age) {
+    this.name = name;
+    this.age = age;
+  }
   // and assigns it to the instance variables
 
 
